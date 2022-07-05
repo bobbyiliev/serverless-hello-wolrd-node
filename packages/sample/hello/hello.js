@@ -8,7 +8,7 @@ function main(args) {
 
     console.log(helloWorld());
 
-    return {"body": greeting}
+    return {"body": greeting + " " + helloWorld()}
   }
   
 exports.main = main
